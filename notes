@@ -1,0 +1,46 @@
+notes = {
+    "До": {
+        "letter": "C",
+        "frequency_hz": 261.63,
+        "role": "Тоніка (основна нота)"
+    
+    },
+    "Ре": {
+        "letter": "D",
+        "frequency_hz": 293.66,
+        "role": "Ввідний ступінь"
+    },
+    "Мі": {
+        "letter": "E",
+        "frequency_hz": 329.63,
+        "role": "Мажорна терція"
+    },
+    "Фа": {
+        "letter": "F",
+        "frequency_hz": 349.23,
+        "role": "Субдомінанта"
+    },
+    "Соль": {
+        "letter": "G",
+        "frequency_hz": 392.00,
+        "role": "Домінантний звук"
+    },
+    "Ля": {
+        "letter": "A",
+        "frequency_hz": 440.00,
+        "role": "Еталон настройки (Камертон)"
+    }
+}
+notes["Сі"] = {
+    "letter": "B / H",
+        "frequency_hz": 493.88,
+        "role": "Ввідний тон до До"
+    }
+
+for name, notes in notes.items():
+    print("notes", name)
+    print("letter", notes["letter"])
+    print("frequency_hz", notes["frequency_hz"])
+    print("role", notes["role"])
+    print()
+
